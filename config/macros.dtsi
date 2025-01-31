@@ -1,3 +1,21 @@
+macro_aero_down: macro_aero_down{
+compatible = "zmk,behavior-macro";
+label = "macro_aero_down";
+#binding-cells = <0>;
+bindings = <&kt LEFT_ALT>, <&kt LEFT_SHIFT>, <&kp DOWN>, <&kt LEFT_ALT>, <&kt LEFT_SHIFT>;
+};
+macro_aero_up: macro_aero_up{
+compatible = "zmk,behavior-macro";
+label = "macro_aero_up";
+#binding-cells = <0>;
+bindings = <&kt LEFT_SHIFT>, <&kt LEFT_ALT>, <&kp UP>, <&kt LEFT_ALT>, <&kt LEFT_SHIFT>;
+};
+macro_aero_float: macro_aero_float{
+compatible = "zmk,behavior-macro";
+label = "macro_aero_float";
+#binding-cells = <0>;
+bindings = <&kt LEFT_ALT>, <&kt LEFT_SHIFT>, <&kp SEMICOLON>, <&kt LEFT_ALT>, <&kt LEFT_SHIFT>, <&kp F>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
